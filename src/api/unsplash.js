@@ -7,5 +7,3 @@ export default axios.create({
       `Client-ID ${process.env.UNSPLASH_API_KEY}`,
   },
 });
-
-console.log(process.env.UNSPLASH_API_KEY)
